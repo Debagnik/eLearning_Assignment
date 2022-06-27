@@ -6,7 +6,7 @@ public interface DataElearningMail {
 	public final String INBOX_BTN = "//li[@class='inbox-message-social']/a";
 	public final String CONFIRM_SEND_BTN_NAME = "compose";
 	public final String SEARCH_BOX = "//input[@class='select2-search__field']";
-	public final String SENDER = "//ul[@class='select2-results__options']";
+	public final String SENDER = "//li[text()='amit luthra']";
 	public final String SUBJECT_BOX = "//input[@class='form-control' and @name='title']";
 //	public final String PROFILE_MENU_XPATH = "//span[@class='caret']";
 //	public final String PROFILE_MENU_INBOX_OPTION_XPATH = "//a[contains(text(),'Inbox')]";

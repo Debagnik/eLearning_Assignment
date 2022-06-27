@@ -1,61 +1,275 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="8" time="0.004179">
-<testcase classname="E-learning Login page" name="user tries invalid login" time="0.002501">
-<skipped><![CDATA[Given user is on homepage...................................................skipped
+<testsuite failures="7" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="10" time="79.879633">
+<testcase classname="E-learning Login page" name="user tries invalid login" time="7.285515">
+<skipped><![CDATA[Given user is on homepage...................................................passed
 When user provides false creds "zsxdr" "pass12".............................undefined
 And user clicks on login button.............................................skipped
 Then validation message is displayed........................................undefined
 ]]></skipped>
 </testcase>
-<testcase classname="E-learning Login page" name="user tries invalid login 2" time="0.000331">
-<skipped><![CDATA[Given user is on homepage...................................................skipped
+<testcase classname="E-learning Login page" name="user tries invalid login 2" time="6.574985">
+<skipped><![CDATA[Given user is on homepage...................................................passed
 When user provides false creds "qwert" "pass123"............................undefined
 And user clicks on login button.............................................skipped
 Then validation message is displayed........................................undefined
 ]]></skipped>
 </testcase>
-<testcase classname="E-learning Login page" name="user tries invalid login 3" time="0.000235">
-<skipped><![CDATA[Given user is on homepage...................................................skipped
+<testcase classname="E-learning Login page" name="user tries invalid login 3" time="6.619562">
+<skipped><![CDATA[Given user is on homepage...................................................passed
 When user provides false creds "abs" "a123".................................undefined
 And user clicks on login button.............................................skipped
 Then validation message is displayed........................................undefined
 ]]></skipped>
 </testcase>
-<testcase classname="E-learning Login page" name="user tries valid login" time="0.000221">
-<system-out><![CDATA[Given user is on homepage...................................................skipped
-When user provides valid creds "John" "pass123".............................skipped
-And user clicks on login button.............................................skipped
-Then user navigates to profile "John Doe" homepage..........................skipped
-]]></system-out>
+<testcase classname="E-learning Login page" name="user tries valid login" time="7.372726">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2323}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: ee61dc34144f651ff19bd534cc884526&#10;*** Element info: {Using=name, value=//strong[contains(text(), 'John Doe')]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locateByName(Automator.java:96)&#13;&#10;&#9;at stepDefs.login.verifySuccessfulLogin(login.java:46)&#13;&#10;&#9;at ✽.user navigates to profile &quot;John Doe&quot; homepage(file:src/test/java/features/login.feature:24)&#13;&#10;"><![CDATA[Given user is on homepage...................................................passed
+When user provides valid creds "John" "pass123".............................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "John Doe" homepage..........................failed
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2323}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ee61dc34144f651ff19bd534cc884526
+*** Element info: {Using=name, value=//strong[contains(text(), 'John Doe')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locateByName(Automator.java:96)
+	at stepDefs.login.verifySuccessfulLogin(login.java:46)
+	at ✽.user navigates to profile "John Doe" homepage(file:src/test/java/features/login.feature:24)
+]]></failure>
 </testcase>
-<testcase classname="E-learning Login page" name="user tries valid login 2" time="0.000215">
-<system-out><![CDATA[Given user is on homepage...................................................skipped
-When user provides valid creds "Rick" "pass123".............................skipped
-And user clicks on login button.............................................skipped
-Then user navigates to profile "Rick Ashley" homepage.......................skipped
-]]></system-out>
+<testcase classname="E-learning Login page" name="user tries valid login 2" time="7.288469">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2375}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 496acaa7de192a1660a712e16f62391a&#10;*** Element info: {Using=name, value=//strong[contains(text(), 'Rick Ashley')]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locateByName(Automator.java:96)&#13;&#10;&#9;at stepDefs.login.verifySuccessfulLogin(login.java:46)&#13;&#10;&#9;at ✽.user navigates to profile &quot;Rick Ashley&quot; homepage(file:src/test/java/features/login.feature:24)&#13;&#10;"><![CDATA[Given user is on homepage...................................................passed
+When user provides valid creds "Rick" "pass123".............................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "Rick Ashley" homepage.......................failed
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2375}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 496acaa7de192a1660a712e16f62391a
+*** Element info: {Using=name, value=//strong[contains(text(), 'Rick Ashley')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locateByName(Automator.java:96)
+	at stepDefs.login.verifySuccessfulLogin(login.java:46)
+	at ✽.user navigates to profile "Rick Ashley" homepage(file:src/test/java/features/login.feature:24)
+]]></failure>
 </testcase>
-<testcase classname="E-learning Login page" name="user tries valid login 3" time="0.000187">
-<system-out><![CDATA[Given user is on homepage...................................................skipped
-When user provides valid creds "new1" "pass123".............................skipped
-And user clicks on login button.............................................skipped
-Then user navigates to profile "New Learner1" homepage......................skipped
-]]></system-out>
+<testcase classname="E-learning Login page" name="user tries valid login 3" time="9.404234">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2427}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: b1d2ce4f30316e2831626544925a3878&#10;*** Element info: {Using=name, value=//strong[contains(text(), 'New Learner1')]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locateByName(Automator.java:96)&#13;&#10;&#9;at stepDefs.login.verifySuccessfulLogin(login.java:46)&#13;&#10;&#9;at ✽.user navigates to profile &quot;New Learner1&quot; homepage(file:src/test/java/features/login.feature:24)&#13;&#10;"><![CDATA[Given user is on homepage...................................................passed
+When user provides valid creds "new1" "pass123".............................passed
+And user clicks on login button.............................................passed
+Then user navigates to profile "New Learner1" homepage......................failed
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2427}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b1d2ce4f30316e2831626544925a3878
+*** Element info: {Using=name, value=//strong[contains(text(), 'New Learner1')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locateByName(Automator.java:96)
+	at stepDefs.login.verifySuccessfulLogin(login.java:46)
+	at ✽.user navigates to profile "New Learner1" homepage(file:src/test/java/features/login.feature:24)
+]]></failure>
 </testcase>
-<testcase classname="Elearning registration page" name="invalid user registration" time="0.000226">
-<system-out><![CDATA[Given user is on homepage...................................................skipped
-When user clicks on the signup link.........................................skipped
-And user enters redundant details "Rick" "Ashley" "rick@roll.xyz" "rollrick" "pass123" "pass123".skipped
-And user clicks on Register.................................................skipped
-Then error validation messages is shown to user.............................skipped
-]]></system-out>
+<testcase classname="Compose mail" name="Verify if blank email could be sent" time="6.818722">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2486}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: bbbc35b3ec63bf985c1e61e433ad7081&#10;*** Element info: {Using=name, value=//input[@name='login']}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locateByName(Automator.java:96)&#13;&#10;&#9;at stepDefs.mail.user_is_at_profile_page(mail.java:21)&#13;&#10;&#9;at ✽.user is at profile page already logged in(file:src/test/java/features/mail.feature:6)&#13;&#10;"><![CDATA[Given user is at profile page already logged in.............................failed
+When user clicks on the inbox option........................................skipped
+And user clicks on the compose button.......................................skipped
+And user enters initials "amit" and selects recipients "amit luthra"........undefined
+And user enters subject.....................................................skipped
+And user clicks on send email button........................................skipped
+Then mail send succesfully..................................................skipped
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2486}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bbbc35b3ec63bf985c1e61e433ad7081
+*** Element info: {Using=name, value=//input[@name='login']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locateByName(Automator.java:96)
+	at stepDefs.mail.user_is_at_profile_page(mail.java:21)
+	at ✽.user is at profile page already logged in(file:src/test/java/features/mail.feature:6)
+]]></failure>
 </testcase>
-<testcase classname="Elearning registration page" name="Valid user registration" time="0.000263">
-<system-out><![CDATA[Given user is on homepage...................................................skipped
-When user clicks on the signup link.........................................skipped
-And user fills unique details "John" "Doe" "doe@john.net" "<usrnam>" "pass123" "pass123".skipped
-And user clicks on Register.................................................skipped
-Then user presented with profile "John Doe" welcome messages................skipped
-]]></system-out>
+<testcase classname="Elearning registration page" name="invalid user registration" time="8.78133">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2529}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a69ca5f5590e62b481c59abb1fa830ec&#10;*** Element info: {Using=name, value=//div[@class='']/div[2]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locateByName(Automator.java:96)&#13;&#10;&#9;at stepDefs.register.userGetsError(register.java:44)&#13;&#10;&#9;at ✽.error validation messages is shown to user(file:src/test/java/features/registration.feature:13)&#13;&#10;"><![CDATA[Given user is on homepage...................................................passed
+When user clicks on the signup link.........................................passed
+And user enters redundant details "Rick" "Ashley" "rick@roll.xyz" "rollrick" "pass123" "pass123".passed
+And user clicks on Register.................................................passed
+Then error validation messages is shown to user.............................failed
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2529}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a69ca5f5590e62b481c59abb1fa830ec
+*** Element info: {Using=name, value=//div[@class='']/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locateByName(Automator.java:96)
+	at stepDefs.register.userGetsError(register.java:44)
+	at ✽.error validation messages is shown to user(file:src/test/java/features/registration.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="Elearning registration page" name="invalid user registration 2" time="9.980845">
+<failure message="org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2579}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 63d779ec30d9006f879f4fc1dde93e4a&#10;*** Element info: {Using=name, value=//div[@class='']/div[2]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)&#13;&#10;&#9;at org.openqa.selenium.By$ByName.findElement(By.java:284)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locateByName(Automator.java:96)&#13;&#10;&#9;at stepDefs.register.userGetsError(register.java:44)&#13;&#10;&#9;at ✽.error validation messages is shown to user(file:src/test/java/features/registration.feature:13)&#13;&#10;"><![CDATA[Given user is on homepage...................................................passed
+When user clicks on the signup link.........................................passed
+And user enters redundant details "John" "Doe" "JohnDoe@fb" "Doe" "Pass1" "Pass1".passed
+And user clicks on Register.................................................passed
+Then error validation messages is shown to user.............................failed
+
+StackTrace:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2579}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 63d779ec30d9006f879f4fc1dde93e4a
+*** Element info: {Using=name, value=//div[@class='']/div[2]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locateByName(Automator.java:96)
+	at stepDefs.register.userGetsError(register.java:44)
+	at ✽.error validation messages is shown to user(file:src/test/java/features/registration.feature:13)
+]]></failure>
+</testcase>
+<testcase classname="Elearning registration page" name="Valid user registration" time="9.753245">
+<failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[contains(text(),'John Doe')]&quot;}&#10;  (Session info: MicrosoftEdge=103.0.1264.37)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2626}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: f7fb983c11ab72c42e54fe15fba5a00d&#10;*** Element info: {Using=xpath, value=//p[contains(text(),'John Doe')]}&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Unknown Source)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#13;&#10;&#9;at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)&#13;&#10;&#9;at org.openqa.selenium.By$ByXPath.findElement(By.java:353)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)&#13;&#10;&#9;at lib.Automator.locate(Automator.java:87)&#13;&#10;&#9;at stepDefs.register.welcomeMessageSucess(register.java:54)&#13;&#10;&#9;at ✽.user presented with profile &quot;John Doe&quot; welcome messages(file:src/test/java/features/registration.feature:24)&#13;&#10;"><![CDATA[Given user is on homepage...................................................passed
+When user clicks on the signup link.........................................passed
+And user fills unique details "John" "Doe" "doe@john.net" "<usrnam>" "pass123" "pass123".passed
+And user clicks on Register.................................................passed
+Then user presented with profile "John Doe" welcome messages................failed
+
+StackTrace:
+org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'John Doe')]"}
+  (Session info: MicrosoftEdge=103.0.1264.37)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DEBAGNIKWORKSTA', ip: '192.168.1.9', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_333'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2626}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\Users\003PX5~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f7fb983c11ab72c42e54fe15fba5a00d
+*** Element info: {Using=xpath, value=//p[contains(text(),'John Doe')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at lib.Automator.locate(Automator.java:87)
+	at stepDefs.register.welcomeMessageSucess(register.java:54)
+	at ✽.user presented with profile "John Doe" welcome messages(file:src/test/java/features/registration.feature:24)
+]]></failure>
 </testcase>
 </testsuite>

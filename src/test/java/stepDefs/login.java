@@ -43,6 +43,6 @@ public class login {
 	@SuppressWarnings("deprecation")
 	@Then("user navigates to profile {string} homepage")
 	public void verifySuccessfulLogin(String profile){
-		Assert.assertTrue(automator.locate("//strong[contains(text(), '"+profile+"')]").getText().contentEquals(profile));
+		Assert.assertTrue(automator.locateByName("//strong[contains(text(), '"+profile+"')]").getText().contentEquals(profile));
 	}
 }

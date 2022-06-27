@@ -35,13 +35,13 @@ public class mail {
 	    // Write code here that turns the phrase above into concrete actions
 		automator.locateByName(DataElearningMail.COMPOSE_BTN).click();
 	}
-	
+	/*
 	@When("user enters initials {string} and selects recipients {script}")
 	public void user_inputs_initials_and_selects_recipient(String init, String fullName) {
 	    // Write code here that turns the phrase above into concrete actions
 	    automator.locateByName(DataElearningMail.SEARCH_BOX).sendKeys(init);
 	    automator.locateByName(DataElearningMail.SENDER).click();
-	}
+	}*/
 	
 	@When("user enters subject")
 	public void user_inputs_subject() {

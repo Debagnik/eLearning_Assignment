@@ -11,8 +11,8 @@
         "steps": [
           {
             "result": {
-              "duration": 21300,
-              "status": "skipped"
+              "duration": 3672229500,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -24,21 +24,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.887Z",
+        "start_timestamp": "2022-06-27T12:14:22.612Z",
         "before": [
           {
             "result": {
-              "duration": 268700,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 4400,
-              "status": "skipped"
+              "duration": 3553390800,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
@@ -52,17 +43,8 @@
         "after": [
           {
             "result": {
-              "duration": 7100,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 3400,
-              "status": "skipped"
+              "duration": 57914100,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -83,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 5000,
+              "duration": 8400,
               "status": "skipped"
             },
             "line": 11,
@@ -121,8 +103,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5600,
-              "status": "skipped"
+              "duration": 3670712700,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -134,21 +116,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.894Z",
+        "start_timestamp": "2022-06-27T12:14:29.902Z",
         "before": [
           {
             "result": {
-              "duration": 4600,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2200,
-              "status": "skipped"
+              "duration": 2841870200,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
@@ -162,17 +135,8 @@
         "after": [
           {
             "result": {
-              "duration": 3300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2000,
-              "status": "skipped"
+              "duration": 62105500,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -188,6 +152,98 @@
             },
             "line": 10,
             "name": "user provides false creds \"qwert\" \"pass123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validation message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3718301400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-27T12:14:36.479Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2848580200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-invalid-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 52397300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user provides false creds \"abs\" \"a123\"",
             "match": {},
             "keyword": "When "
           },
@@ -231,8 +287,8 @@
         "steps": [
           {
             "result": {
-              "duration": 3000,
-              "status": "skipped"
+              "duration": 3435240600,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -244,131 +300,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.895Z",
+        "start_timestamp": "2022-06-27T12:14:43.099Z",
         "before": [
           {
             "result": {
-              "duration": 19200,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1900,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseEdgeAutomator.setup()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "user tries invalid login",
-        "description": "",
-        "id": "e-learning-login-page;user-tries-invalid-login;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 2300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1700,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseEdgeAutomator.teardown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 10,
-            "name": "user provides false creds \"abs\" \"a123\"",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 2900,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "login.clicksLoginBtn()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "validation message is displayed",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@f1"
-          },
-          {
-            "name": "@f1n"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "User is at homepage trying to login",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 3700,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "user is on homepage",
-            "match": {
-              "location": "login.verifyHomePage()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-06-25T08:18:30.896Z",
-        "before": [
-          {
-            "result": {
-              "duration": 16800,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2700,
-              "status": "skipped"
+              "duration": 2847612300,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
@@ -382,17 +319,8 @@
         "after": [
           {
             "result": {
-              "duration": 2400,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1900,
-              "status": "skipped"
+              "duration": 51200500,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -404,8 +332,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5100,
-              "status": "skipped"
+              "duration": 138175800,
+              "status": "passed"
             },
             "line": 22,
             "name": "user provides valid creds \"John\" \"pass123\"",
@@ -426,8 +354,8 @@
           },
           {
             "result": {
-              "duration": 3000,
-              "status": "skipped"
+              "duration": 863018400,
+              "status": "passed"
             },
             "line": 23,
             "name": "user clicks on login button",
@@ -438,8 +366,9 @@
           },
           {
             "result": {
-              "duration": 5500,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2323}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: ee61dc34144f651ff19bd534cc884526\n*** Element info: {Using\u003dname, value\u003d//strong[contains(text(), \u0027John Doe\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locateByName(Automator.java:96)\r\n\tat stepDefs.login.verifySuccessfulLogin(login.java:46)\r\n\tat ✽.user navigates to profile \"John Doe\" homepage(file:src/test/java/features/login.feature:24)\r\n",
+              "duration": 37175100,
+              "status": "failed"
             },
             "line": 24,
             "name": "user navigates to profile \"John Doe\" homepage",
@@ -473,8 +402,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4200,
-              "status": "skipped"
+              "duration": 3351864200,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -486,21 +415,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.897Z",
+        "start_timestamp": "2022-06-27T12:14:50.473Z",
         "before": [
           {
             "result": {
-              "duration": 4300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2900,
-              "status": "skipped"
+              "duration": 2850110800,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
@@ -514,17 +434,8 @@
         "after": [
           {
             "result": {
-              "duration": 2300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1800,
-              "status": "skipped"
+              "duration": 71855200,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -536,8 +447,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2900,
-              "status": "skipped"
+              "duration": 122706500,
+              "status": "passed"
             },
             "line": 22,
             "name": "user provides valid creds \"Rick\" \"pass123\"",
@@ -558,8 +469,8 @@
           },
           {
             "result": {
-              "duration": 2800,
-              "status": "skipped"
+              "duration": 866712200,
+              "status": "passed"
             },
             "line": 23,
             "name": "user clicks on login button",
@@ -570,8 +481,9 @@
           },
           {
             "result": {
-              "duration": 4100,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2375}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 496acaa7de192a1660a712e16f62391a\n*** Element info: {Using\u003dname, value\u003d//strong[contains(text(), \u0027Rick Ashley\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locateByName(Automator.java:96)\r\n\tat stepDefs.login.verifySuccessfulLogin(login.java:46)\r\n\tat ✽.user navigates to profile \"Rick Ashley\" homepage(file:src/test/java/features/login.feature:24)\r\n",
+              "duration": 24996400,
+              "status": "failed"
             },
             "line": 24,
             "name": "user navigates to profile \"Rick Ashley\" homepage",
@@ -605,8 +517,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4000,
-              "status": "skipped"
+              "duration": 3538163800,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -618,21 +530,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.897Z",
+        "start_timestamp": "2022-06-27T12:14:57.763Z",
         "before": [
           {
             "result": {
-              "duration": 4100,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 3000,
-              "status": "skipped"
+              "duration": 2871718800,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
@@ -646,17 +549,8 @@
         "after": [
           {
             "result": {
-              "duration": 2300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1800,
-              "status": "skipped"
+              "duration": 110250400,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -668,8 +562,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2700,
-              "status": "skipped"
+              "duration": 126858900,
+              "status": "passed"
             },
             "line": 22,
             "name": "user provides valid creds \"new1\" \"pass123\"",
@@ -690,8 +584,8 @@
           },
           {
             "result": {
-              "duration": 3500,
-              "status": "skipped"
+              "duration": 2729424800,
+              "status": "passed"
             },
             "line": 23,
             "name": "user clicks on login button",
@@ -702,8 +596,9 @@
           },
           {
             "result": {
-              "duration": 2800,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2427}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: b1d2ce4f30316e2831626544925a3878\n*** Element info: {Using\u003dname, value\u003d//strong[contains(text(), \u0027New Learner1\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locateByName(Automator.java:96)\r\n\tat stepDefs.login.verifySuccessfulLogin(login.java:46)\r\n\tat ✽.user navigates to profile \"New Learner1\" homepage(file:src/test/java/features/login.feature:24)\r\n",
+              "duration": 27465000,
+              "status": "failed"
             },
             "line": 24,
             "name": "user navigates to profile \"New Learner1\" homepage",
@@ -750,6 +645,161 @@
     "elements": [
       {
         "line": 5,
+        "name": "user logins to its profile",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2486}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: bbbc35b3ec63bf985c1e61e433ad7081\n*** Element info: {Using\u003dname, value\u003d//input[@name\u003d\u0027login\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locateByName(Automator.java:96)\r\n\tat stepDefs.mail.user_is_at_profile_page(mail.java:21)\r\n\tat ✽.user is at profile page already logged in(file:src/test/java/features/mail.feature:6)\r\n",
+              "duration": 3926314800,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "user is at profile page already logged in",
+            "match": {
+              "location": "mail.user_is_at_profile_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-27T12:15:07.169Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2826801500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Verify if blank email could be sent",
+        "description": "",
+        "id": "compose-mail;verify-if-blank-email-could-be-sent;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 65177200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "user clicks on the inbox option",
+            "match": {
+              "location": "mail.user_clicks_on_inbox_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5100,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on the compose button",
+            "match": {
+              "location": "mail.user_clicks_on_compose_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "user enters initials \"amit\" and selects recipients \"amit luthra\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4700,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user enters subject",
+            "match": {
+              "location": "mail.user_inputs_subject()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4900,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks on send email button",
+            "match": {
+              "location": "mail.user_clicks_on_send_mail()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4500,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "mail send succesfully",
+            "match": {
+              "location": "mail.mail_sent_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f2"
+          },
+          {
+            "name": "@f2p"
+          },
+          {
+            "name": "@f2pblank"
+          }
+        ]
+      }
+    ],
+    "name": "Compose mail",
+    "description": "  userwould like to compose and send an email",
+    "id": "compose-mail",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/mail.feature",
+    "tags": [
+      {
+        "name": "@f2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
         "name": "Trying to register",
         "description": "",
         "type": "background",
@@ -757,8 +807,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5700,
-              "status": "skipped"
+              "duration": 3575435600,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -769,8 +819,8 @@
           },
           {
             "result": {
-              "duration": 2900,
-              "status": "skipped"
+              "duration": 1872035100,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks on the signup link",
@@ -782,21 +832,12 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.898Z",
+        "start_timestamp": "2022-06-27T12:15:13.988Z",
         "before": [
           {
             "result": {
-              "duration": 4000,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 4300,
-              "status": "skipped"
+              "duration": 2795963500,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
@@ -810,17 +851,8 @@
         "after": [
           {
             "result": {
-              "duration": 2300,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1800,
-              "status": "skipped"
+              "duration": 69906200,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -832,8 +864,8 @@
         "steps": [
           {
             "result": {
-              "duration": 5700,
-              "status": "skipped"
+              "duration": 432753000,
+              "status": "passed"
             },
             "line": 11,
             "name": "user enters redundant details \"Rick\" \"Ashley\" \"rick@roll.xyz\" \"rollrick\" \"pass123\" \"pass123\"",
@@ -870,8 +902,8 @@
           },
           {
             "result": {
-              "duration": 2800,
-              "status": "skipped"
+              "duration": 13056000,
+              "status": "passed"
             },
             "line": 12,
             "name": "user clicks on Register",
@@ -882,8 +914,9 @@
           },
           {
             "result": {
-              "duration": 3500,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2529}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: a69ca5f5590e62b481c59abb1fa830ec\n*** Element info: {Using\u003dname, value\u003d//div[@class\u003d\u0027\u0027]/div[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locateByName(Automator.java:96)\r\n\tat stepDefs.register.userGetsError(register.java:44)\r\n\tat ✽.error validation messages is shown to user(file:src/test/java/features/registration.feature:13)\r\n",
+              "duration": 21771800,
+              "status": "failed"
             },
             "line": 13,
             "name": "error validation messages is shown to user",
@@ -911,8 +944,8 @@
         "steps": [
           {
             "result": {
-              "duration": 3300,
-              "status": "skipped"
+              "duration": 3753285200,
+              "status": "passed"
             },
             "line": 6,
             "name": "user is on homepage",
@@ -923,8 +956,8 @@
           },
           {
             "result": {
-              "duration": 7600,
-              "status": "skipped"
+              "duration": 2827794500,
+              "status": "passed"
             },
             "line": 7,
             "name": "user clicks on the signup link",
@@ -936,45 +969,27 @@
         ]
       },
       {
-        "start_timestamp": "2022-06-25T08:18:30.898Z",
+        "start_timestamp": "2022-06-27T12:15:22.771Z",
         "before": [
           {
             "result": {
-              "duration": 4100,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2700,
-              "status": "skipped"
+              "duration": 2862375400,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.setup()"
             }
           }
         ],
-        "line": 27,
-        "name": "Valid user registration",
+        "line": 18,
+        "name": "invalid user registration",
         "description": "",
-        "id": "elearning-registration-page;valid-user-registration;;2",
+        "id": "elearning-registration-page;invalid-user-registration;;3",
         "after": [
           {
             "result": {
-              "duration": 3100,
-              "status": "skipped"
-            },
-            "match": {
-              "location": "UseChromeAutomator.teardown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 2500,
-              "status": "skipped"
+              "duration": 57033900,
+              "status": "passed"
             },
             "match": {
               "location": "UseEdgeAutomator.teardown()"
@@ -986,10 +1001,147 @@
         "steps": [
           {
             "result": {
-              "duration": 3700,
-              "status": "skipped"
+              "duration": 446548800,
+              "status": "passed"
             },
-            "line": 21,
+            "line": 11,
+            "name": "user enters redundant details \"John\" \"Doe\" \"JohnDoe@fb\" \"Doe\" \"Pass1\" \"Pass1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Doe\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"JohnDoe@fb\"",
+                  "offset": 43
+                },
+                {
+                  "val": "\"Doe\"",
+                  "offset": 56
+                },
+                {
+                  "val": "\"Pass1\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"Pass1\"",
+                  "offset": 70
+                }
+              ],
+              "location": "register.userFillsFaltuDetails(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10539300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Register",
+            "match": {
+              "location": "register.clicksRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/invalid_selector_exception.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2579}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 63d779ec30d9006f879f4fc1dde93e4a\n*** Element info: {Using\u003dname, value\u003d//div[@class\u003d\u0027\u0027]/div[2]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)\r\n\tat org.openqa.selenium.By$ByName.findElement(By.java:284)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locateByName(Automator.java:96)\r\n\tat stepDefs.register.userGetsError(register.java:44)\r\n\tat ✽.error validation messages is shown to user(file:src/test/java/features/registration.feature:13)\r\n",
+              "duration": 22955200,
+              "status": "failed"
+            },
+            "line": 13,
+            "name": "error validation messages is shown to user",
+            "match": {
+              "location": "register.userGetsError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f0"
+          },
+          {
+            "name": "@f0n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Trying to register",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4529788500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1812589200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on the signup link",
+            "match": {
+              "location": "register.signupLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-27T12:15:32.752Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2854573400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "Valid user registration",
+        "description": "",
+        "id": "elearning-registration-page;valid-user-registration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 88267400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 427731100,
+              "status": "passed"
+            },
+            "line": 22,
             "name": "user fills unique details \"John\" \"Doe\" \"doe@john.net\" \"\u003cusrnam\u003e\" \"pass123\" \"pass123\"",
             "match": {
               "arguments": [
@@ -1024,10 +1176,10 @@
           },
           {
             "result": {
-              "duration": 3600,
-              "status": "skipped"
+              "duration": 25112900,
+              "status": "passed"
             },
-            "line": 22,
+            "line": 23,
             "name": "user clicks on Register",
             "match": {
               "location": "register.clicksRegister()"
@@ -1036,10 +1188,11 @@
           },
           {
             "result": {
-              "duration": 6800,
-              "status": "skipped"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),\u0027John Doe\u0027)]\"}\n  (Session info: MicrosoftEdge\u003d103.0.1264.37)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DEBAGNIKWORKSTA\u0027, ip: \u0027192.168.1.9\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_333\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCapabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 103.0.1264.37, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:2626}, msedge: {msedgedriverVersion: 102.0.1245.33 (41285f1c5672..., userDataDir: C:\\Users\\003PX5~1\\AppData\\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f7fb983c11ab72c42e54fe15fba5a00d\n*** Element info: {Using\u003dxpath, value\u003d//p[contains(text(),\u0027John Doe\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat lib.Automator.locate(Automator.java:87)\r\n\tat stepDefs.register.welcomeMessageSucess(register.java:54)\r\n\tat ✽.user presented with profile \"John Doe\" welcome messages(file:src/test/java/features/registration.feature:24)\r\n",
+              "duration": 14967400,
+              "status": "failed"
             },
-            "line": 23,
+            "line": 24,
             "name": "user presented with profile \"John Doe\" welcome messages",
             "match": {
               "arguments": [

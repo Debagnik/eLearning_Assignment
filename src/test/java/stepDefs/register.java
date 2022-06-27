@@ -41,7 +41,7 @@ public class register {
 	
 	@Then("error validation messages is shown to user")
 	public void userGetsError(){
-		Assert.assertTrue(automator.locateByCssSelector("div.alert.alert-warning").isDisplayed());
+		Assert.assertTrue(automator.locateByName("//div[@class='']/div[2]").isDisplayed());
 	}
 	
 	@When("user fills unique details {string} {string} {string} {string} {string} {string}")

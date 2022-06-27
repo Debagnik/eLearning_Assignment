@@ -15,6 +15,7 @@ Feature: Elearning registration page
 	Examples:
 		| firstName | lastName | email         | usrnam   | pass    | confirmPass | profile     |
 		| Rick      | Ashley   | rick@roll.xyz | rollrick | pass123 | pass123     | Rick Ashley |
+		| John      | Doe      | JohnDoe@fb    | Doe      | Pass1   | Pass1       | John Doe    |
 	
 	@f0p
 	Scenario Outline: Valid user registration

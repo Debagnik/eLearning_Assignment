@@ -11,7 +11,7 @@ import cucumber.api.CucumberOptions;
 	features = "src/test/java/features",
 	glue = {"stepDefs", "hooks"},
 	monochrome=true,
-	dryRun=true,
+	dryRun=false,
 	plugin = {"pretty","html:reports/htmlreport","json:reports/jsonreport.json","junit:reports/xmlreport.xml"}
 	)
 
