@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="3" tests="8" time="0.004179">
+<testcase classname="E-learning Login page" name="user tries invalid login" time="0.002501">
+<skipped><![CDATA[Given user is on homepage...................................................skipped
+When user provides false creds "zsxdr" "pass12".............................undefined
+And user clicks on login button.............................................skipped
+Then validation message is displayed........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="E-learning Login page" name="user tries invalid login 2" time="0.000331">
+<skipped><![CDATA[Given user is on homepage...................................................skipped
+When user provides false creds "qwert" "pass123"............................undefined
+And user clicks on login button.............................................skipped
+Then validation message is displayed........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="E-learning Login page" name="user tries invalid login 3" time="0.000235">
+<skipped><![CDATA[Given user is on homepage...................................................skipped
+When user provides false creds "abs" "a123".................................undefined
+And user clicks on login button.............................................skipped
+Then validation message is displayed........................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="E-learning Login page" name="user tries valid login" time="0.000221">
+<system-out><![CDATA[Given user is on homepage...................................................skipped
+When user provides valid creds "John" "pass123".............................skipped
+And user clicks on login button.............................................skipped
+Then user navigates to profile "John Doe" homepage..........................skipped
+]]></system-out>
+</testcase>
+<testcase classname="E-learning Login page" name="user tries valid login 2" time="0.000215">
+<system-out><![CDATA[Given user is on homepage...................................................skipped
+When user provides valid creds "Rick" "pass123".............................skipped
+And user clicks on login button.............................................skipped
+Then user navigates to profile "Rick Ashley" homepage.......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="E-learning Login page" name="user tries valid login 3" time="0.000187">
+<system-out><![CDATA[Given user is on homepage...................................................skipped
+When user provides valid creds "new1" "pass123".............................skipped
+And user clicks on login button.............................................skipped
+Then user navigates to profile "New Learner1" homepage......................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Elearning registration page" name="invalid user registration" time="0.000226">
+<system-out><![CDATA[Given user is on homepage...................................................skipped
+When user clicks on the signup link.........................................skipped
+And user enters redundant details "Rick" "Ashley" "rick@roll.xyz" "rollrick" "pass123" "pass123".skipped
+And user clicks on Register.................................................skipped
+Then error validation messages is shown to user.............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Elearning registration page" name="Valid user registration" time="0.000263">
+<system-out><![CDATA[Given user is on homepage...................................................skipped
+When user clicks on the signup link.........................................skipped
+And user fills unique details "John" "Doe" "doe@john.net" "<usrnam>" "pass123" "pass123".skipped
+And user clicks on Register.................................................skipped
+Then user presented with profile "John Doe" welcome messages................skipped
+]]></system-out>
+</testcase>
+</testsuite>

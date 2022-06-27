@@ -1,0 +1,1082 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.887Z",
+        "before": [
+          {
+            "result": {
+              "duration": 268700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-invalid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 7100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user provides false creds \"zsxdr\" \"pass12\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validation message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.894Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4600,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-invalid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user provides false creds \"qwert\" \"pass123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3200,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validation message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.895Z",
+        "before": [
+          {
+            "result": {
+              "duration": 19200,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "user tries invalid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-invalid-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "user provides false creds \"abs\" \"a123\"",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validation message is displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.896Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "user tries valid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-valid-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5100,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user provides valid creds \"John\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "login.enterProperCreds(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5500,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user navigates to profile \"John Doe\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Doe\"",
+                  "offset": 26
+                }
+              ],
+              "location": "login.verifySuccessfulLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1p"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.897Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "user tries valid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-valid-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user provides valid creds \"Rick\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "login.enterProperCreds(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user navigates to profile \"Rick Ashley\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick Ashley\"",
+                  "offset": 26
+                }
+              ],
+              "location": "login.verifySuccessfulLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1p"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User is at homepage trying to login",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.897Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "user tries valid login",
+        "description": "",
+        "id": "e-learning-login-page;user-tries-valid-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user provides valid creds \"new1\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"new1\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 33
+                }
+              ],
+              "location": "login.enterProperCreds(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "login.clicksLoginBtn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user navigates to profile \"New Learner1\" homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"New Learner1\"",
+                  "offset": 26
+                }
+              ],
+              "location": "login.verifySuccessfulLogin(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f1"
+          },
+          {
+            "name": "@f1p"
+          }
+        ]
+      }
+    ],
+    "name": "E-learning Login page",
+    "description": "  as a recurring user, it wants to login",
+    "id": "e-learning-login-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/login.feature",
+    "tags": [
+      {
+        "name": "@f1",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Trying to register",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2900,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on the signup link",
+            "match": {
+              "location": "register.signupLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.898Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "invalid user registration",
+        "description": "",
+        "id": "elearning-registration-page;invalid-user-registration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 2300,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5700,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters redundant details \"Rick\" \"Ashley\" \"rick@roll.xyz\" \"rollrick\" \"pass123\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Rick\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"Ashley\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"rick@roll.xyz\"",
+                  "offset": 46
+                },
+                {
+                  "val": "\"rollrick\"",
+                  "offset": 62
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 73
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 83
+                }
+              ],
+              "location": "register.userFillsFaltuDetails(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2800,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks on Register",
+            "match": {
+              "location": "register.clicksRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3500,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "error validation messages is shown to user",
+            "match": {
+              "location": "register.userGetsError()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f0"
+          },
+          {
+            "name": "@f0n"
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "Trying to register",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3300,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "user is on homepage",
+            "match": {
+              "location": "login.verifyHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7600,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "user clicks on the signup link",
+            "match": {
+              "location": "register.signupLink()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-06-25T08:18:30.898Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.setup()"
+            }
+          }
+        ],
+        "line": 27,
+        "name": "Valid user registration",
+        "description": "",
+        "id": "elearning-registration-page;valid-user-registration;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3100,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseChromeAutomator.teardown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "UseEdgeAutomator.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3700,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user fills unique details \"John\" \"Doe\" \"doe@john.net\" \"\u003cusrnam\u003e\" \"pass123\" \"pass123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Doe\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"doe@john.net\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"\u003cusrnam\u003e\"",
+                  "offset": 54
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 65
+                },
+                {
+                  "val": "\"pass123\"",
+                  "offset": 75
+                }
+              ],
+              "location": "register.userFillsUniqueDetails(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3600,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user clicks on Register",
+            "match": {
+              "location": "register.clicksRegister()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6800,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user presented with profile \"John Doe\" welcome messages",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"John Doe\"",
+                  "offset": 28
+                }
+              ],
+              "location": "register.welcomeMessageSucess(String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@f0"
+          },
+          {
+            "name": "@f0p"
+          }
+        ]
+      }
+    ],
+    "name": "Elearning registration page",
+    "description": "\tAs a new user wants to enroll itself to the website",
+    "id": "elearning-registration-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/registration.feature",
+    "tags": [
+      {
+        "name": "@f0",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
